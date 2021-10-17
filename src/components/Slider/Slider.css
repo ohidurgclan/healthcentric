@@ -1,0 +1,15 @@
+.slider-h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #1bbde4;
+}
+.slider-h4 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #1bbde4;
+}
+.carousel-caption {
+    bottom: 17rem;
+    text-align: left;
+    left: 5%;
+}

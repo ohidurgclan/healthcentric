@@ -1,0 +1,24 @@
+.header-section {
+  background-color: #071836;
+  height: 125px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  line-height: 0;
+}
+.logo a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 35px;
+  text-decoration: none;
+}
+.nav-bar a {
+  text-decoration: none;
+  padding-left: 35px;
+  color: #fff;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
