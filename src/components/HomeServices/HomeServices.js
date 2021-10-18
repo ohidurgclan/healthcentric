@@ -13,9 +13,11 @@ const HomeServices = (props) => {
                     <div className="service-info">
                         <h5 className="fw-bold">{name}</h5>
                         <h6 className="fw-bold"><span>{star}</span></h6>
-                        <p>{details.slice(0, 150)}</p>
+                        <div>
+                            <p>{details.slice(0, 150)}</p>
+                        </div>
                     <NavLink to="/">
-                        <button className="appointment-btn">Details</button>
+                        <button className="appointment-btn">View Details</button>
                     </NavLink>   
                     </div>
                 </div>
