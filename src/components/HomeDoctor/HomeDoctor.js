@@ -7,7 +7,7 @@ const HomeDoctor = (props) => {
     const {name, img, role} = props.doctor;
     return (
         <>
-            <Col lg={4} md={4} sm={1}>
+            <Col lg={4} md={4} sm={12}>
                 <div className="doctor-detail w-100 text-center mt-5">
                     <img className="img img-fluid doctor-img" src={img} alt="" />
                     <h3>{name}</h3>

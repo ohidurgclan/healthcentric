@@ -1,0 +1,17 @@
+.appointment-btn {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #189cf0;
+    border-color: #189cf0;
+}

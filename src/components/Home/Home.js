@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
             <Slider></Slider>
-            <Container>
+            <Container className="mb-5">
                 <Row>
                     <h2 className="mb-5 mt-5 text-center home-h2" >Our Specialist Doctors</h2>
                     {
@@ -24,7 +24,7 @@ const Home = () => {
                     }
                     <h2 className="mb-5 mt-5 text-center home-h2" >Our Special Services</h2>
                     {
-                        services.slice(0, 3).map(service => <HomeServices
+                        services.slice(0, 6).map(service => <HomeServices
                             key={service.key}
                             service ={service}
                         ></HomeServices>)

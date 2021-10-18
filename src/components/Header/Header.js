@@ -13,9 +13,9 @@ const Header = () => {
             </div>
             <div className="d-flex nav-bar">
               <NavLink exact to="/" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>Home</NavLink>
-              <NavLink to="/about" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>About</NavLink>
               <NavLink to="/services" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>Services</NavLink>
-              <NavLink to="/doctor" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>Doctors</NavLink>
+              <NavLink to="/doctor" activeStyle={{ fontWeight: "bold", color: "#1bbde4" }}>Doctors</NavLink>
+              <NavLink to="/about" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>About</NavLink>
               <NavLink to="/contact" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>Contact</NavLink>
             </div>
             </div>
