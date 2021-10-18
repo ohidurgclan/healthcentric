@@ -13,6 +13,9 @@
   font-size: 35px;
   text-decoration: none;
 }
+.logo span {
+  color: #189cf0;
+}
 .nav-bar a {
   text-decoration: none;
   padding-left: 35px;
