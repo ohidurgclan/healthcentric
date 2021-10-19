@@ -1,13 +1,9 @@
 .header-section {
   background-color: #071836;
-  height: 125px;
-  align-items: center;
-  justify-content: space-between;
+  color: #fff;
 }
-.logo h1 {
-  line-height: 0;
-}
-.logo a {
+
+.logo {
   color: #fff;
   font-weight: 700;
   font-size: 35px;
@@ -16,12 +12,22 @@
 .logo span {
   color: #189cf0;
 }
-.nav-bar a {
+.nav-bar { 
   text-decoration: none;
   padding-left: 35px;
   color: #fff;
-  font-size: 22px;
   display: flex;
   align-items: center;
   font-weight: 600;
+  font-size: 1.4rem;
+}
+.nav-link {
+  color: #fff;
+}
+.navbar-text {
+  color: #189cf0 !important;
+}
+.navbar-text a {
+  color: #fff !important;
+  text-decoration: none;
 }

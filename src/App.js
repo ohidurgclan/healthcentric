@@ -8,11 +8,15 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
 import Services from "./components/Services/Services";
+import AuthProvider from "./contexts/AuthProvider";
+import Login from "./Pages/Login/Login/Login";
+import Service from "./Pages/Service/Service/Service";
 
 function App() {
   return (
     <>
-      <Router>
+      <AuthProvider>
+        <Router>
       <Header />
         <Switch >
           <Route exact path="/">
@@ -33,12 +37,19 @@ function App() {
           <Route exact path="/contact">
             <Contact></Contact>
           </Route>
+          <Route exact path="/login">
+            <Login></Login>
+          </Route>
+          <Route exact path="/service/:serviceId">
+            <Service></Service>
+          </Route>
           <Route exact path="*">
             <Notfound></Notfound>
           </Route>
         </Switch>
         <Footer/>
       </Router>
+      </AuthProvider>
     </>
   );
 }

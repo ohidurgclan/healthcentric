@@ -1,0 +1,27 @@
+.service-cards {
+    flex-direction: row;
+    margin-top: 50px;
+    display: flex!important;
+    margin-bottom: 40px!important;
+    height: 37rem;
+}
+.detail-img {
+    width: 243rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 0.4rem;
+    height: 567px;
+    border-radius: 0.4rem;
+}
+.detail-info {
+    padding: 2rem;
+    color: #071836;
+}
+.detail-info p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 8rem;
+    line-height: 2.3rem;
+    color: #189cf0;
+}
