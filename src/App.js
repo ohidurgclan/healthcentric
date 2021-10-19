@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Services from "./components/Services/Services";
 import AuthProvider from "./contexts/AuthProvider";
 import Doctor from "./Pages/Doctor/Doctor/Doctor";
@@ -41,12 +42,12 @@ function App() {
           <Route exact path="/login">
             <Login></Login>
             </Route>
-          <Route exact path="/doctor/:doctorId">
+          <PrivateRoute exact path="/doctor/:doctorId">
             <Doctor></Doctor>
-          </Route>
-          <Route exact path="/service/:serviceId">
+          </PrivateRoute>
+          <PrivateRoute exact path="/service/:serviceId">
             <Service></Service>
-          </Route>
+          </PrivateRoute>
           <Route exact path="*">
             <Notfound></Notfound>
           </Route>
