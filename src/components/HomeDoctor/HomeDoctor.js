@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './HomeDoctor.css'
 
 const HomeDoctor = (props) => {
-    const {name, img, role} = props.doctor;
+    const {key, name, img, role} = props.doctor;
     return (
         <>
             <Col lg={4} md={4} sm={12}>
@@ -12,7 +12,7 @@ const HomeDoctor = (props) => {
                     <img className="img img-fluid doctor-img" src={img} alt="" />
                     <h3>{name}</h3>
                     <h5>{role}</h5>
-                    <NavLink to="/">
+                    <NavLink to={`/doctor/${key}`}>
                         <button className="appointment-btn">Get Appointment</button>
                     </NavLink>
                 </div>

@@ -9,6 +9,7 @@ import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
 import Services from "./components/Services/Services";
 import AuthProvider from "./contexts/AuthProvider";
+import Doctor from "./Pages/Doctor/Doctor/Doctor";
 import Login from "./Pages/Login/Login/Login";
 import Service from "./Pages/Service/Service/Service";
 
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route exact path="/login">
             <Login></Login>
+            </Route>
+          <Route exact path="/doctor/:doctorId">
+            <Doctor></Doctor>
           </Route>
           <Route exact path="/service/:serviceId">
             <Service></Service>

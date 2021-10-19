@@ -1,0 +1,43 @@
+.docctor-cards {
+    flex-direction: row;
+    margin-top: 120px;
+    display: flex!important;
+    margin-bottom: 80px!important;
+    height: 30rem;
+}
+.single-doctor-img {
+    width: 75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 0.8rem;
+    height: 455px;
+    border-radius: 0.4rem;
+}
+.doctor-info {
+    padding: 2rem;
+    color: #071836;
+}
+.doctor-info h4 {
+    color: #189cf0;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+.doctor-info h6 {
+    color: #189cf0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.doctor-info p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    line-height: 2.3rem;
+    color: #189cf0;
+}
+.doctor-info span {
+    color: #071836;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
