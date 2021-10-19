@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Rating from 'react-rating';
 import { useParams } from 'react-router';
 import useServices from '../../../hooks/useServices';
 import './Service.css';
@@ -24,6 +25,11 @@ const Service = () => {
                         </div>
                         <div className="detail-info">
                             <h2>{singleService?.name}</h2>
+                            <h5>Rating:  <Rating className="mt-3"
+                    emptySymbol="far fa-star rating-color"
+                    fullSymbol="fas fa-star rating-color"
+                    initialRating={singleService?.star}
+                /> </h5>
                             <p>{singleService?.details}</p>
                         </div>
                     </Col>

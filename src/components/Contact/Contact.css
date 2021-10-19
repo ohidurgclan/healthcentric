@@ -1,0 +1,15 @@
+.contact-area {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.form-label {
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn-primary{
+    background-color: #189cf0;
+    border-color: #189cf0;
+}
+.contact-h2 {
+    color: #071836;
+} 

@@ -21,7 +21,10 @@
 .detail-info p {
     font-size: 1.3rem;
     font-weight: 600;
-    margin-top: 8rem;
+    margin-top: 4rem;
     line-height: 2.3rem;
     color: #189cf0;
+}
+.rating-color {
+    color: #fdc140;
 }
