@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useDoctors from '../../hooks/useDoctors';
 import useServices from '../../hooks/useServices'
+import Feedslider from '../Feedslider/Feedslider';
 import HomeDoctor from '../HomeDoctor/HomeDoctor';
 import HomeServices from '../HomeServices/HomeServices';
 import Slider from '../Slider/Slider';
@@ -38,6 +39,10 @@ const Home = () => {
                     <NavLink to="/services">
                         <button className="view-btn mt-5">View More Services</button>
                     </NavLink>
+                </Row>
+                <Row>
+                    <h2 className="text-center mt-5 home-h2">Satisfied Patients Reviews</h2>
+                    <Feedslider></Feedslider>
                 </Row>
             </Container>
         </>

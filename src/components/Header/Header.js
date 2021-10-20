@@ -21,7 +21,7 @@ const Header = () =>{
               {users?.email ? <Button onClick={logOut} variant="light">Logout</Button> :
               <Nav.Link as={NavLink} to="/login" activeStyle={{fontWeight: "bold",color: "#1bbde4"}}>Login</Nav.Link>}
               <Navbar.Text>
-                Signed in as: {users?.displayName}
+                {users?.displayName}
               </Navbar.Text>
               </Navbar.Collapse>
           </Container>
