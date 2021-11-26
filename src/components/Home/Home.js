@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import useDoctors from '../../hooks/useDoctors';
-import useServices from '../../hooks/useServices'
+import useServices from '../../hooks/useServices';
 import Feedslider from '../Feedslider/Feedslider';
 import HomeDoctor from '../HomeDoctor/HomeDoctor';
 import HomeServices from '../HomeServices/HomeServices';

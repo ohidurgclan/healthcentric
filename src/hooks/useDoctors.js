@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const useDoctors = () => {
     const [doctors, setDoctors] = useState([])
     useEffect(()=>{
-        fetch('https://ohidurgclan.github.io/assignapi/doctors.json')
+        fetch('http://localhost:4030/doctors')
         .then(res => res.json())
         .then(data => setDoctors(data))
     },[]);

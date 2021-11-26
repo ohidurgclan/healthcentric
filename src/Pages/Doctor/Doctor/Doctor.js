@@ -12,7 +12,7 @@ const [doctors] = useDoctors();
     useEffect (() => {
         const foundDoctor = doctors.find(doctor => doctor.key === doctorId);
         setsingleDoctor(foundDoctor);
-    }, [doctors])
+    }, [doctors, doctorId])
 
     return (
         <>

@@ -13,7 +13,7 @@ const Service = () => {
     useEffect(() => {
         const foundService = services.find(service => service.key === serviceId);
         setSingleService(foundService);
-    }, [services])
+    }, [services, serviceId])
 
     return (
         <>
